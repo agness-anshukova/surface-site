@@ -110,7 +110,8 @@ div,h1,h2,h3,h4,h5,h6 {
 .fitures-block {
 	width:50%;
 	padding-top: 3.7rem;
-    padding-bottom: 3.7rem;
+    	padding-bottom: 3.7rem;
+	font-size: 15px;
 }
 
 .header-wrap {
@@ -128,8 +129,8 @@ div,h1,h2,h3,h4,h5,h6 {
 	color: #e7e7e7;
 }
 
-.sub-header {
-	font-size: 2.3rem;
+.numbered-header h3.sub-header {
+	font-size: 23px;
 	color: #c1c1c1;
 }
 
@@ -139,7 +140,7 @@ div,h1,h2,h3,h4,h5,h6 {
 
 .number {
 	font-weight: 700;
-    font-size: 1.125rem;
+    	font-size: 14px;
 	margin-right: 1.125rem;
 }
 
@@ -302,6 +303,7 @@ div,h1,h2,h3,h4,h5,h6 {
 
 .call-to-action .sub-header {
 	margin-top: 6%;
+	font-size: 32px;
 }
 
 .call-to-action .text-block {
@@ -520,6 +522,10 @@ div,h1,h2,h3,h4,h5,h6 {
 		margin: auto;
 	}
 	
+	.number {
+		font-size: 24px;
+	}
+	
 }
 
 @media (min-width:961px) and (max-width: 1919px){
@@ -548,7 +554,7 @@ div,h1,h2,h3,h4,h5,h6 {
 	}
 	
 	.first-screen .header {
-		font-size: 5.6rem;
+		font-size: 90px;
 	}	
 	
 	.first-screen .header .bottom {
@@ -557,8 +563,16 @@ div,h1,h2,h3,h4,h5,h6 {
 		width: 75%;
 	}
 	
+	.fitures-block p {
+		font-size: 24px;	
+	}
+	
+	.fitures-header {
+		font-size: 80px;	
+	}
+		
 	.footer-header {
-		font-size: 5rem;
+		font-size: 80px;
 	}
 	
 	.footer .header-description {
@@ -661,6 +675,7 @@ div,h1,h2,h3,h4,h5,h6 {
 		height: 170px;
 		position: absolute;
 		left: calc(50% - 85px);
+		font-size: 24px;
 	}
 	
 	.number::after {
