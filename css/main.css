@@ -253,7 +253,7 @@ div,h1,h2,h3,h4,h5,h6 {
 }
 
 .btn-content {
-	width: 40%;
+	width: 35%;
 	flex-wrap: nowrap;
 	align-items: center;
 	height: 3.5rem;
