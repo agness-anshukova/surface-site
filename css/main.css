@@ -70,6 +70,14 @@ div,h1,h2,h3,h4,h5,h6 {
 	background-color: #0a0e34;
 }
 
+.bold-txt {
+	font-weight: bold;
+}
+
+.button-text .bold-txt {
+	display: block;
+}
+
 .container {
 	padding-left: 4.17%;
 	padding-right: 4.17%;
@@ -216,6 +224,12 @@ div,h1,h2,h3,h4,h5,h6 {
 	font-weight: 700;
 }
 
+.first-screen .header .top,
+.first-screen .header .bottom
+{
+	display: block;
+}
+
 .first-screen .header .bottom {
 	margin-left: auto;
     width: 70%;
@@ -252,7 +266,7 @@ div,h1,h2,h3,h4,h5,h6 {
 
 .download-button svg {
 	fill: #fff;
-	height: 25px;
+	width: 25px;
 	flex-shrink: 0;
 	flex-grow: 0;
 	margin-right: 0.9rem;
@@ -492,9 +506,11 @@ div,h1,h2,h3,h4,h5,h6 {
 	}
 	
 	.btn-content {
-		width: 100%;
-		justify-content: center;
+		/*width: 100%;*/
+		/*justify-content: center;*/
+		width: 30%;
 		height: auto;
+		margin: auto;
 	}
 	
 }
@@ -693,4 +709,3 @@ div,h1,h2,h3,h4,h5,h6 {
 		background-image: url(../images/work-it.jpg);
 	}
 }
-	
