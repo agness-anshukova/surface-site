@@ -507,11 +507,10 @@ div,h1,h2,h3,h4,h5,h6 {
 	.download-button:first-child {
 		margin-bottom: 0;
 		margin-right: 4%;
+		width: 312px;
 	}
 	
 	.btn-content {
-		/*width: 100%;*/
-		/*justify-content: center;*/
 		width: fit-content;
 		height: auto;
 		margin: auto;
