@@ -502,7 +502,6 @@ div,h1,h2,h3,h4,h5,h6 {
 		border-radius: 3rem;
 		width: 50%;
 		font-size: 14px;
-		width: 312px;
 	}
 	
 	.download-button:first-child {
@@ -582,6 +581,10 @@ div,h1,h2,h3,h4,h5,h6 {
 		width: 680px;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	
+	.download-button {
+		width: 312px;
 	}
 	
 	.download-group {
