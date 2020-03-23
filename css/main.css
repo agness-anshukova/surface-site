@@ -585,6 +585,16 @@ div,h1,h2,h3,h4,h5,h6 {
 	
 	.download-button {
 		width: 312px;
+		flex-grow: 0;
+    		flex-shrink: 0;
+	}
+	
+	.download-button:first-child {
+		margin-left: auto;
+	}
+	
+	.download-button:last-child {
+		margin-right: auto;
 	}
 	
 	.download-group {
